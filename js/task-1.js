@@ -1,6 +1,7 @@
-function getUserNames(users) {
+const getUserNames = (users) => {
   return users.filter(user => user.name).map(user => user.name);
 }
+
 
 console.log(
   getUserNames([
